@@ -1,0 +1,25 @@
+import java.util.*;
+public class House {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc=new Scanner(System.in);
+		boolean stand,fullauto;
+		Double area;
+		double cost=0;
+		stand=sc.nextBoolean();
+		area=sc.nextDouble();
+		fullauto=sc.nextBoolean();
+		if(stand && fullauto)
+		{
+			cost=area*2500;
+		}
+		else if(stand)
+		{
+			cost=area*(1200+1500+1800);
+		}
+		// System.out.println(cost);
+	}
+
+}
+

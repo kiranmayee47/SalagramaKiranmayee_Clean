@@ -1,0 +1,17 @@
+import java.util.*;
+public class SimandCom {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           Scanner sc=new Scanner(System.in);
+           double pr,rate,time,simple,compound;
+           pr=sc.nextDouble();
+           rate=sc.nextDouble();
+           time=sc.nextDouble();
+           simple=(pr*time*rate)/100;
+           compound=pr*Math.pow(1.0*rate/100.0, time)-pr;
+          // System.out.println(compound);
+           //System.out.println(simple);
+	}
+
+}
